@@ -213,6 +213,11 @@ func (v *UserMatcher) Apply(ctx routing.Context) bool {
 		return false
 	}
 	for _, u := range v.user {
+
+		if strings.Index(user, u) != -1 {
+			return true
+		}
+		
 		if u == user {
 			return true
 		}
