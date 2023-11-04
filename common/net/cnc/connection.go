@@ -4,10 +4,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/signal/done"
+	"github.com/xxhanxx/Xray-core/common"
+	"github.com/xxhanxx/Xray-core/common/buf"
+	"github.com/xxhanxx/Xray-core/common/net"
+	"github.com/xxhanxx/Xray-core/common/signal/done"
 )
 
 type ConnectionOption func(*connection)

@@ -10,12 +10,12 @@ import (
 	"strings"
 
 	goreality "github.com/xtls/reality"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/reality"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/xxhanxx/Xray-core/common"
+	"github.com/xxhanxx/Xray-core/common/net"
+	"github.com/xxhanxx/Xray-core/transport/internet"
+	"github.com/xxhanxx/Xray-core/transport/internet/reality"
+	"github.com/xxhanxx/Xray-core/transport/internet/stat"
+	"github.com/xxhanxx/Xray-core/transport/internet/tls"
 	"golang.org/x/sys/unix"
 )
 

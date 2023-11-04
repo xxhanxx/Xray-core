@@ -8,11 +8,11 @@ import (
 	"io"
 	"strings"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
+	"github.com/xxhanxx/Xray-core/common/buf"
+	"github.com/xxhanxx/Xray-core/common/net"
+	"github.com/xxhanxx/Xray-core/common/platform"
+	"github.com/xxhanxx/Xray-core/common/protocol"
+	"github.com/xxhanxx/Xray-core/common/session"
 	"lukechampine.com/blake3"
 )
 

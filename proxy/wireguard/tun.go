@@ -13,7 +13,7 @@ import (
 	"os"
 
 	"github.com/sagernet/wireguard-go/tun"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/xxhanxx/Xray-core/features/dns"
 	"gvisor.dev/gvisor/pkg/buffer"
 	"gvisor.dev/gvisor/pkg/tcpip"
 	"gvisor.dev/gvisor/pkg/tcpip/adapters/gonet"

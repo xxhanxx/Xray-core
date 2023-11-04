@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/xxhanxx/Xray-core/main/commands/base"
 	"golang.org/x/crypto/curve25519"
 )
 

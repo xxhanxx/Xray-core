@@ -8,12 +8,12 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	. "github.com/xtls/xray-core/transport/internet/domainsocket"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/xxhanxx/Xray-core/common"
+	"github.com/xxhanxx/Xray-core/common/buf"
+	"github.com/xxhanxx/Xray-core/common/net"
+	"github.com/xxhanxx/Xray-core/transport/internet"
+	. "github.com/xxhanxx/Xray-core/transport/internet/domainsocket"
+	"github.com/xxhanxx/Xray-core/transport/internet/stat"
 )
 
 func TestListen(t *testing.T) {

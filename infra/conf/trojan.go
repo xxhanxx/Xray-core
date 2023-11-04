@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/trojan"
+	"github.com/xxhanxx/Xray-core/common/net"
+	"github.com/xxhanxx/Xray-core/common/protocol"
+	"github.com/xxhanxx/Xray-core/common/serial"
+	"github.com/xxhanxx/Xray-core/proxy/trojan"
 	"google.golang.org/protobuf/proto"
 )
 

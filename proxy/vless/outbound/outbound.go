@@ -1,6 +1,6 @@
 package outbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/xxhanxx/Xray-core/common/errors/errorgen
 
 import (
 	"bytes"
@@ -11,25 +11,25 @@ import (
 	"unsafe"
 
 	utls "github.com/refraction-networking/utls"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/xudp"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/encoding"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/reality"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/xxhanxx/Xray-core/common"
+	"github.com/xxhanxx/Xray-core/common/buf"
+	"github.com/xxhanxx/Xray-core/common/net"
+	"github.com/xxhanxx/Xray-core/common/protocol"
+	"github.com/xxhanxx/Xray-core/common/retry"
+	"github.com/xxhanxx/Xray-core/common/session"
+	"github.com/xxhanxx/Xray-core/common/signal"
+	"github.com/xxhanxx/Xray-core/common/task"
+	"github.com/xxhanxx/Xray-core/common/xudp"
+	"github.com/xxhanxx/Xray-core/core"
+	"github.com/xxhanxx/Xray-core/features/policy"
+	"github.com/xxhanxx/Xray-core/proxy"
+	"github.com/xxhanxx/Xray-core/proxy/vless"
+	"github.com/xxhanxx/Xray-core/proxy/vless/encoding"
+	"github.com/xxhanxx/Xray-core/transport"
+	"github.com/xxhanxx/Xray-core/transport/internet"
+	"github.com/xxhanxx/Xray-core/transport/internet/reality"
+	"github.com/xxhanxx/Xray-core/transport/internet/stat"
+	"github.com/xxhanxx/Xray-core/transport/internet/tls"
 )
 
 func init() {
